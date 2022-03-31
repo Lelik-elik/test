@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-first">
+                <a href="" class="header-geo header-info">
+                    <img src="img/Vector.svg" alt="" class="header-icon">
+                    <span>Воронеж, ул. Циолковского, д. 8, пом 1/1</span>
+                </a>
+                <a href="tel:+74732221211" class="header-tel">
+                    <img src="img/tel.svg" alt="" class="header-icon">
+                    <span>+7 (473) 222-12-11</span>
+                </a>
+                <a href="mailto:algoritm_pribor@mail.ru" class="header-info">
+                    <img src="img/email.svg" alt="" class="header-icon">
+                    <span>algoritm_pribor@mail.ru</span>
+                </a>
+                <button class="btn">обратная связь</button>
+            </div>
+            <div class="header-second">
+                <img src="img/logo.svg" alt="logo" class="logo">
+                <nav>
+                    <ul class="header-nav">
+                        <li class="header-list"><a href="#" class="header-link">Продукция</a></li>
+                        <li class="header-list"><a href="#" class="header-link">О компании</a></li>
+                        <li class="header-list"><a href="#" class="header-link">Покупателям</a></li>
+                        <li class="header-list"><a href="#" class="header-link">Сервис и поддержка</a></li>
+                        <li class="header-list"><a href="#" class="header-link">Оплата и доставка</a></li>
+                        <li class="header-list"><a href="#" class="header-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="temperature">
+        <div class="container">
+            <div class="subtitle">Главная - Продукция - <span> Температура </span></div>
+            <h1 class="title">Температура</h1>
+            <div class="content">
+                <aside>
+                    <div class="block">
+                        <ul class="block-list">
+                            <li class="block-item">Температура
+                            </li>
+                            <hr class="block-line">
+                            <ul class="block-sublist">
+                                <li class="block-subitem">Датчики температуры (термопреобразователи)</li>
+                                <li class="block-subitem">Механические <br> термометры </li>
+                                <li class="block-subitem">Пирометры</li>
+                                <li class="block-subitem">Арматура для термометров и <br> датчиков температуры</li>
+                            </ul>
+                            <hr class="block-line">
+                            <li class="block-item">Давление</li>
+                            <hr class="block-line">
+                            <li class="block-item">Расход</li>
+                            <hr class="block-line">
+                            <li class="block-item">Функциональная аппаратура</li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/Sensors.jpg" alt="">
+                        <h2 class="card-title">Датчики температуры (термопреобразователи)</h2>
+                    </div>
+                    <div class="card">
+                        <img src="img/thermometers.jpg" alt="">
+                        <h2 class="card-title">Механические <br> термометры</h2>
+                    </div>
+                    <div class="card">
+                        <img src="img/pyrometers.jpg" alt="">
+                        <h2 class="card-title">Пирометры</h2>
+                    </div>
+                    <div class="card">
+                        <img src="img/fittings.jpg" alt="">
+                        <h2 class="card-title">Арматура для <br> термометров и датчиков температуры</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrap">
+                <div class="contact-text">
+                    <h2 class="contact-title"> Нужна помощь? <br>
+                        Возникли вопросы?</h2>
+                    <span class="contact-subtitle">
+                        Наши менеджеры помогут вам подобрать <br> решения и рассчитать их стоимость
+                    </span>
+                </div>
+
+                <form action="/" method="post" class="form">
+
+                    <div class="form-wrapper">
+                        <div>
+                            <div class="form-icon form-icon__user">
+                                <input class="form-input" type="text" name="name" placeholder="ФИО">
+                            </div>
+                            <div class="form-icon form-icon__mail">
+                                <input class="form-input" type="email" name="email" placeholder="E-mail">
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="form-icon form-icon__tel">
+                                <input class="form-input" type="tel" name="tel" placeholder="Телефон"></div>
+                            <div class="form-icon form-icon__chat">
+                                <input class="form-input" type="text" name="text" placeholder="Сообщение">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="form-agree">
+                            <input type="checkbox" name="checkbox" id="agree">
+                            <label for="agree">Я соглашаюсь с <a href="" class="form-agree__link">политикой <br>
+                                    обработки персональных данных
+                                </a> </label>
+                        </div>
+
+                        <div>
+                            <button class="btn form-btn" type="submit">отправить заявку</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <h2 class="footer-desc">© ООО «Алгоритм-Прибор» <br>
+                    Все права защищены, 2008-2021</h2>
+                <a href="" class="footer-excerpt">Политика конфиденциальности</a>
+                <a href="" class="footer-developer">Разработка
+                    <span>ЮНОНА</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
